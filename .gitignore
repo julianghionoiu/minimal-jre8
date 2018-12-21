@@ -1,0 +1,6 @@
+.idea
+.cache
+.DS_Store
+
+build
+run_tmp
