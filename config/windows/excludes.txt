@@ -1,4 +1,15 @@
-lib/ext/*
+lib/ext/sunmscapi.jar
+lib/ext/sunec.jar
+lib/ext/nashorn.jar
+lib/ext/access-bridge-64.jar
+lib/ext/cldrdata.jar
+lib/ext/jfxrt.jar
+lib/ext/dnsns.jar
+lib/ext/localedata.jar
+lib/ext/meta-index
+lib/ext/sunpkcs11.jar
+lib/ext/jaccess.jar
+lib/ext/zipfs.jar
 bin/rmid.exe
 bin/rmiregistry.exe
 bin/tnameserv.exe

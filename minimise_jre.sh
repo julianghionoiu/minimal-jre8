@@ -31,7 +31,10 @@ echo "EXPECTED_MINIMISED_SIZE=${EXPECTED_MINIMISED_SIZE}"
 ACTUAL_SIZE=$(stat -f %z "${MINIMAL_JRE_PATH}")
 echo "ACTUAL_SIZE=${ACTUAL_SIZE}"
 if [ ${ACTUAL_SIZE} -gt ${EXPECTED_MINIMISED_SIZE} ]; then
-    echo "Minimised JRE file size greater that expected size ( ${ACTUAL_SIZE} > ${EXPECTED_MINIMISED_SIZE} )"
+    echo "!! Minimised JRE file size greater that expected size ( ${ACTUAL_SIZE} > ${EXPECTED_MINIMISED_SIZE} )"
     exit 1
+else
+    echo "All good"
 fi
+
 
